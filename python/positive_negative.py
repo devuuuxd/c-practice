@@ -1,9 +1,9 @@
-a=int(input("Tell me a number: "))
+num=int(input("Tell me a number: "))
 
 
-if a>0:
+if num>0:
     print("It is a Positive Number")
-elif a<0:
+elif num<0:
     print("It is a Negative Number")
 else:
     print("It is Zero")
